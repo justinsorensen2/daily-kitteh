@@ -6,7 +6,99 @@ html {
   height: 100%;
 }
 
+.Title {
+  text-align: center;
+  margin-top: .5rem;
+  margin-right: .5rem;
+  margin-left: .5rem;
+  padding: 1.5rem;
+  font: 98px / 1 serif;
+  background-color: whitesmoke;
+  color: rgb(97, 96, 96);
+}
+
+.NavBar {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-top: -1rem;
+  margin-right: .5rem;
+  margin-left: .5rem;
+  padding: .5rem;
+  background-color: rgb(40, 209, 209);
+  justify-content: space-around;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+img {
+  max-width: 95%;
+  height: auto;
+}
+
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(30, 122, 158);
+}
+
+h1 {
+  background-color: whitesmoke;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+main {
+  display: flex;
+  background-color: whitesmoke;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  margin-top: -1rem;
+  font: 15px / 1 comic;
+}
+
+aside {
+  padding: 1rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  padding-left: .5rem;
+  margin-left: .5rem;
+  padding-right: .5rem;
+  margin-right: .5rem;
+  padding-top: .5rem;
+  margin-top: .5rem;
+  flex-direction: column;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 1px;
+  border-color: rgb(30, 122, 158);
+  border-top: -2px;
+  border-left: -2px;
+}
+
+.KOTD {
+  margin-left: -1rem;
+  justify-content: left;
+}
+
+.Article {
+  padding 1rem;
+  justify-content: left;
+  margin-left: 1rem;
+}
+
+.NavBar2 {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-top: -.5rem;
+  margin-right: .5rem;
+  margin-left: .5rem;
+  padding: .5rem;
+  background-color: rgb(204, 196, 196);
+  justify-content: space-around;
+  color: rgb(10, 10, 10);
+  text-decoration: underline;
+  text-decoration-color: black;
 }
